@@ -1,11 +1,185 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* background-color: black;
+    color: white; */
+}
 
-header {}
+header {
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
 
-nav {}
+.top-left {
+  height: 100%;
+  display: flex;
+}
+
+.side-btn {
+  width: 30px;
+}
+
+.logo {
+  height: 100%;
+}
+.search-box {
+  display: flex;
+}
+
+.search-bar input {
+  width: 400px;
+  padding: 10px;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border: 1px groove;
+}
+
+.search-bar button {
+  border: 0;
+  height: 100%;
+  width: 70px;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+  margin-left: -3px;
+}
+
+.mic-btn {
+  border: 0;
+  border-radius: 50%;
+  width: 37.6px;
+  height: 37.6px;
+  cursor: pointer;
+}
+
+.top-right button {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.home-page {
+  display: flex;
+}
+
+.side-bar {
+  width: 200px;
+  height: 100%;
+  margin-right: 20px;
+  padding-top: 30px;
+}
+
+.panels {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.panels span {
+  cursor: pointer;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-page {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.search-groups {
+  width: 100%;
+  height: 35px;
+  display: flex;
+}
+
+.search-groups button {
+  padding: 8px;
+  border-radius: 7px;
+  margin-right: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.search-groups button:active {
+  background-color: black;
+  color: white;
+}
+
+.videos {
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.first-line {
+  display: flex;
+}
+
+.second-line {
+  display: flex;
+  margin-top: 45px;
+}
+
+.video {
+  width: 300px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 200px;
+}
+
+.thumbnail img {
+  height: 95%;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.author img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+}
+
+.details {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h3 {
+  color: rgb(3, 3, 3);
+  line-height: 18px;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.title a,
+span {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  font-size: 13px;
+}
