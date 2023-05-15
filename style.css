@@ -1,0 +1,118 @@
+body{
+    background-color: hsl(0, 100%, 0%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+}
+
+input[type=text] {
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: black;
+    background-image: url('search.png');
+    background-position: 2px 2px; 
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 8px 20px 8px 40px;
+  }
+  
+  form{
+
+    margin-left: 200px;
+    margin-top: opx;
+    width: 90%;
+  }
+
+  .firstimg{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    width: 40%;
+
+  }
+
+  .firstform{
+float: left;
+text-align: center;
+width: 50%;
+  }
+
+  .first{
+    display: inline-block;
+    margin: auto;
+    display: flex;
+  }
+
+
+  li {
+    float: left;
+    list-style-type: none;
+    padding: 7px;
+  }
+  
+  li a {
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  a{
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+  }
+
+  .secondp{
+    display: inline-block;
+    margin: auto;
+    display: flex;
+  }
+
+  .secondpp{
+    background-color: white;
+    color: black;
+  }
+
+  .third{
+
+    margin: auto;
+    display: flex;
+  
+  }
+  
+ .third p{
+  color: white; margin-left: 50px; font-weight: bold;
+  width: 30px;
+ }
+
+ .thirdly{
+  width: 200px;
+ }
+
+hr{
+  width: 200px;
+  margin-left: 5px;
+}
+
+.fourth{
+  width: 400px;
+  margin-left: 300px;
+  margin-top: -300px;
+
+}
+
+.fifth{
+  width: 400px;
+  margin-left:300px ;
+  
+}
+
+
+
+
+
+
+  
