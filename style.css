@@ -7,8 +7,9 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  /* background-color: black;
-    color: white; */
+  background-color: rgb(18, 17, 17);
+  color: white;
+  overflow: hidden;
 }
 
 header {
@@ -23,14 +24,16 @@ header {
 .top-left {
   height: 100%;
   display: flex;
+  cursor: pointer;
 }
 
-.side-btn {
-  width: 30px;
+.top-left i {
+  font-size: 30px;
 }
 
 .logo {
-  height: 100%;
+  height: 40px;
+  width: 100px;
 }
 .search-box {
   display: flex;
@@ -42,31 +45,43 @@ header {
   height: 100%;
   border-radius: 25px 0 0 25px;
   border: 1px groove;
+  background-color: rgb(15, 15, 15);
 }
 
 .search-bar button {
-  border: 0;
+  border: 1px groove white;
   height: 100%;
   width: 70px;
   cursor: pointer;
   border-radius: 0 20px 20px 0;
   margin-left: -3px;
+  background-color: rgb(15, 15, 15);
 }
 
-.mic-btn {
-  border: 0;
-  border-radius: 50%;
-  width: 37.6px;
-  height: 37.6px;
-  cursor: pointer;
+.bi-search {
+  color: white;
 }
 
-.top-right button {
+.bi-mic-fill {
   cursor: pointer;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  border: 0;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.top-right {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+}
+
+.bi-bell {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.bi-person-circle {
+  cursor: pointer;
+  font-size: 23px;
 }
 
 .home-page {
@@ -97,6 +112,28 @@ header {
   font-weight: 400;
 }
 
+.shorts {
+  width: 20px;
+  height: 20px;
+  margin-left: -2px;
+}
+
+.lib {
+  width: 20px;
+  height: 20px;
+  margin-left: -2px;
+}
+
+.hist i {
+  font-size: 15px;
+}
+
+.sub1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
 .main-page {
   padding-top: 20px;
   padding-left: 10px;
@@ -106,6 +143,7 @@ header {
   width: 100%;
   height: 35px;
   display: flex;
+  margin-left: 20px;
 }
 
 .search-groups button {
@@ -114,11 +152,13 @@ header {
   margin-right: 10px;
   border: 0;
   cursor: pointer;
+  background: rgb(42, 41, 41);
+  color: white;
 }
 
 .search-groups button:active {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .videos {
@@ -171,7 +211,7 @@ header {
 }
 
 .title h3 {
-  color: rgb(3, 3, 3);
+  color: white;
   line-height: 18px;
   font-size: 15px;
   margin-bottom: 6px;
@@ -180,6 +220,6 @@ header {
 .title a,
 span {
   text-decoration: none;
-  color: rgb(96, 96, 96);
+  color: white;
   font-size: 13px;
 }
