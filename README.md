@@ -1,19 +1,10 @@
 ## Youtube
 
 ```
-Home
-All
-Call of Duty:Mobile
-MacBooks
-Music
-Supercar
-Mixes
-Electical Engineeering
-React routers
-Manchester
+This is a description about a youtube page and contents concerning it.
 
 ```
-
+## HERE ARE SOME FEATURES YOU CAN FINd IN YOUTUBE 
 > Shorts
 > Subscriptions
 > Library
@@ -23,12 +14,3 @@ Manchester
 
 ## Subscritions
 
-```
-234DRIVE
-ZARACOD
-Zollotech
-Mrwhosetheboss
-Yanrique
-Josh2Funny
-TomScottt
-```
