@@ -150,6 +150,7 @@ a {
 
 .fourth {
   display: flex;
+
 }
 
 .float1 {
@@ -185,7 +186,7 @@ main {
 }
 .videos {
   margin-top: 20px;
-  
+  width: 700px;
 }
 
 .final {
@@ -205,4 +206,26 @@ main {
 .thirdbottom{
   border-bottom: 2px solid white;
   width: 180px;
+}
+
+section{
+  padding: 10pxpx;
+}
+.float1 {
+  margin: 20px;
+}
+.float4{
+  margin: 20px;
+}
+.float2 {
+  margin: 20px;
+}
+.float3{
+  margin: 20px;
+}
+.float5{
+  margin: 20px;
+}
+.float6{
+  margin: 20px;
 }
